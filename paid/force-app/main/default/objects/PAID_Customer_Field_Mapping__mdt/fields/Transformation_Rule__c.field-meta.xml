@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Transformation_Rule__c</fullName>
+    <description>Optional transformation to apply to the field value</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Transformation Rule</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>None</fullName>
+                <default>true</default>
+                <label>None</label>
+            </value>
+            <value>
+                <fullName>Uppercase</fullName>
+                <default>false</default>
+                <label>Uppercase</label>
+            </value>
+            <value>
+                <fullName>Lowercase</fullName>
+                <default>false</default>
+                <label>Lowercase</label>
+            </value>
+            <value>
+                <fullName>Trim</fullName>
+                <default>false</default>
+                <label>Trim</label>
+            </value>
+            <value>
+                <fullName>Format Phone</fullName>
+                <default>false</default>
+                <label>Format Phone</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

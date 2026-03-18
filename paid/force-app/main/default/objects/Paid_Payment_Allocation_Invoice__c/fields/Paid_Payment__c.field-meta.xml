@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Paid_Payment__c</fullName>
+    <label>Paid_Payment</label>
+    <referenceTo>Paid_Payment__c</referenceTo>
+    <relationshipLabel>Paid Payment Allocation (Invoice)</relationshipLabel>
+    <relationshipName>Paid_Payment_Allocation_Invoice</relationshipName>
+    <relationshipOrder>1</relationshipOrder>
+    <reparentableMasterDetail>false</reparentableMasterDetail>
+    <trackTrending>false</trackTrending>
+    <type>MasterDetail</type>
+    <writeRequiresMasterRead>false</writeRequiresMasterRead>
+</CustomField>

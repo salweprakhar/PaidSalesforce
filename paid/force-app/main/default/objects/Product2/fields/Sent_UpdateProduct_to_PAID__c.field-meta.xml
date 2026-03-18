@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Sent_UpdateProduct_to_PAID__c</fullName>
+    <defaultValue>false</defaultValue>
+    <description>Tracks if product update request was sent to PAID API</description>
+    <label>Sent Update Product to PAID</label>
+    <trackHistory>true</trackHistory>
+    <type>Checkbox</type>
+</CustomField>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Data_Type__c</fullName>
+    <description>Target data type for conversion</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <label>Data Type</label>
+    <required>false</required>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>String</fullName>
+                <default>true</default>
+                <label>String</label>
+            </value>
+            <value>
+                <fullName>Integer</fullName>
+                <default>false</default>
+                <label>Integer</label>
+            </value>
+            <value>
+                <fullName>Decimal</fullName>
+                <default>false</default>
+                <label>Decimal</label>
+            </value>
+            <value>
+                <fullName>Boolean</fullName>
+                <default>false</default>
+                <label>Boolean</label>
+            </value>
+            <value>
+                <fullName>Date</fullName>
+                <default>false</default>
+                <label>Date</label>
+            </value>
+            <value>
+                <fullName>DateTime</fullName>
+                <default>false</default>
+                <label>DateTime</label>
+            </value>
+            <value>
+                <fullName>Currency</fullName>
+                <default>false</default>
+                <label>Currency</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>

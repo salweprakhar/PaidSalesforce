@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>PAID_ContactExternalID__c</fullName>
+    <caseSensitive>true</caseSensitive>
+    <description>Stores the Contact ID from PAID API</description>
+    <externalId>true</externalId>
+    <inlineHelpText>External Contact ID from the PAID billing system</inlineHelpText>
+    <label>PAID Contact External ID</label>
+    <length>255</length>
+    <required>false</required>
+    <trackFeedHistory>false</trackFeedHistory>
+    <type>Text</type>
+    <unique>true</unique>
+</CustomField>
